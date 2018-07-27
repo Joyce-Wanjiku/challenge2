@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </title>
+    </title>
+    <link href="{{ url_for('static', filename='css/bootstrap/css/bootstrap.min.css" rel="stylesheet') }}">
+    <link rel="stylesheet" href="{{ url_for('statics', filename='css/bootstrap.css/style.css')}}" >
+    <link rel="stylesheet" href="{{ url_for('statics', filename='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')}}">
+
+</head>
+<body>
+    <div class="container bgrow">
+        <div class="row  ">
+            <div class="col-md-2 active">
+                <ol class="todo">
+                 <li><a href="#">Todo</a></li>
+                </ol>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4 pages">
+                <ul>
+                    <li><a href="home.html" class="home ">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="registration.html">Signup</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bgimage">
+            <div class="col-md-12 block">
+                <div class="col-md-2 "></div>
+                <div class="col-md-8 banner ">
+                    <span class="text"><p><h3>Todo enables you to organize and prioritize your projects in a fun, flexible and rewarding way.</h3></p></span>
+                   <a href="login.html"><button type="button" id="sign up" name="sign up" class="btn  submit-button">Sign Up - It's Free</button></a>
+                   <span class="login"><h5>Already use Todo?</h5><a  href="login.html">Login.</a></span>
+
+                </div>
+                <div class="col-md-2 "></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 list">
+                <a href="home.html">
+                <button type="button" id="list" name="list" class="btn list-button">Create a list</button>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+        </div>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    </body>
+</html>
